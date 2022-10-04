@@ -8,7 +8,7 @@
   margin: 0;
   color: black;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 60px;
   font-weight: bold;
 }
 .banner h4 {
@@ -18,15 +18,55 @@
   font-size: 16px;
   font-weight: 500;
 }
-
+h1.sub
+{
+  color: #8E8E8E;
+}
 .banner p {
   font-size: 20px;
   color: black;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+h4.hi
+{
+  color: #0f57db;
+}
 .img-fluid
 {
   min-height: 50px;
   min-height: 50px;
+}
+.img-fluid.capt
+{
+  min-height: 150px;
+  min-height: 150px;
+}
+.list-group {
+  --bs-list-group-color: #212529;
+  --bs-list-group-bg: #f9efe4;
+  --bs-list-group-border-color: rgba(0, 0, 0, 0.125);
+  --bs-list-group-border-width: 0px;
+  --bs-list-group-border-radius: 0px;
+  --bs-list-group-item-padding-x: 1rem;
+  --bs-list-group-item-padding-y: 0.5rem;
+  --bs-list-group-action-color: #495057;
+  }
+
+  .project-description {
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    color: var(--light-slate);
+    font-size: var(--fz-lg);
+}
+
+  /* navbar vertical */
+h3
+{
+  font-size: 1.5rem;
 }
