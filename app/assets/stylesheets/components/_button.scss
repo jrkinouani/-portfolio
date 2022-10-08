@@ -7,8 +7,11 @@
   opacity: 0.6;
   transition: opacity 0.3s ease;
   cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 .btn-ghost:hover {
-  opacity: 1;
+  border-radius: 10px;
+  border: 2px solid #0f57db ;
 }
