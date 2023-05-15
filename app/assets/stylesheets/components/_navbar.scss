@@ -11,12 +11,15 @@
 .navbar-lewagon .navbar-brand img {
   width: 60px;
 }
+.navbar-lewagon li {
+  font-size: 23px;
+}
 a.nav-link {
-  size: 23px;
+  size: 23px !important;
   color: black;
 }
 a.nav-link:hover {
-  size: 23px;
+  size: 23px !important;
   color: #0f57db;
 }
 strong
@@ -27,4 +30,16 @@ strong
 .avatar {
   width: 40px;
   border-radius: 50%;
+}
+i.fab.fa-github
+{
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+i.fab.fa-linkedin
+{
+  font-size: 30px;
+  padding-left: 10px;
+  margin-right: 20px;
 }
